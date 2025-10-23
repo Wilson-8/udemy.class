@@ -1,12 +1,12 @@
 import {menuItems} from './data/db'
 import MenuItem from './components/MenuItem'
-import userOrder from './hooks/userOrder'
+import useOrder from './hooks/useOrder'
 
 
 function App() {
   
 
-  const { addItem } = userOrder()
+  const { addItem } = useOrder()
   
 
   return (
