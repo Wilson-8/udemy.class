@@ -1,3 +1,8 @@
+para traer los cambios primero autoriza la pull request en githup 
+despues en la rama que deseas traer los cambios ejecuta un git merge main
+despues de resolver los conflictos git add .
+en realiza un commit and its done 
+
 1-teminar de estilizar consumo 
 2-agregar los precios a consumo
 3-agregar el boton de elimnar 
