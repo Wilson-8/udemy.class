@@ -18,7 +18,7 @@ function App() {
 
      <main className="max-w-7xl mx-auto py-20 grid md:grid-cols-2">
 
-      <div className="py-5">
+      <div className="py-5 mx-5">
         <h2 className="text-4xl font-black">Menu</h2>
 
        <div className="space-y-2 mt-10">
@@ -34,7 +34,7 @@ function App() {
 
       </div>
 
-      <div className="border border-dashed border-slate-300 p-5 rounded-lg space-y-10">
+      <div className="border  border-slate-400 p-5 rounded-lg space-y-10">
         
         <OrdenContent
         order={order}
