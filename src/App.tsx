@@ -7,7 +7,7 @@ import OrdenContent from './components/OrdenContent'
 function App() {
   
 
-  const { order,addItem } = useOrder()
+  const { order,addItem, removeFromCart } = useOrder()
   
 
   return (
@@ -38,6 +38,7 @@ function App() {
         
         <OrdenContent
         order={order}
+        removeFromCart={removeFromCart}
         />
 
 
