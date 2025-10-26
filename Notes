@@ -1,4 +1,5 @@
-para traer los cambios primero autoriza la pull request en githup 
+para traer los cambios primero ve a la rama main y lanza (git pull) request 
+en githup 
 despues en la rama que deseas traer los cambios ejecuta un git merge main
 despues de resolver los conflictos git add .
 en realiza un commit and its done 
